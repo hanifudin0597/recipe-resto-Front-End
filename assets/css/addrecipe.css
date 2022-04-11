@@ -1,0 +1,123 @@
+@font-face {
+    font-family: airbnb;
+    src: url('/assets/fonts/AirbnbCereal_W_Bd.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hero .main-content{
+    width: 100%;
+}
+.hero .main-content form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.hero .main-content .input-image{
+    width: 700px;
+    height: 350px;
+    background-color: #F6F5F4;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .main-content .input-image img{
+    width: 70px;
+    height: 70px;
+}
+.hero .main-content form .upload-image{
+    /* border-style: ridge;
+    width: 700px;
+    height: 350px; */
+    visibility: hidden;
+}
+.hero .main-content input{
+    border: none;
+    width: 700px;
+    height: 50px;
+    margin: 20px 0px 20px 0px;
+    border-radius: 5px;
+    background-color: #F6F5F4;
+}
+.hero .main-content textarea{
+    border: none;
+    height: 347px;
+    width: 700px;
+    border-radius: 5px;
+    background-color: #F6F5F4;
+    align-content: left;
+}
+.hero .main-content button{
+    border: none;
+    width: 250px;
+    height: 40px;
+    background-color: #EFC81A;
+    margin: 50px 0px 50px 0px;
+    border-radius: 5px;
+    color: white;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.navbar .primary-menu{
+    width: 80%;
+}
+.navbar .primary-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .primary-menu ul li{
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.navbar .primary-menu ul li a{
+    text-decoration: none;
+    color: #2E266F;
+
+}
+
+/* Footer */
+.footer{
+    height: 50vh;
+    background-color: #EFC81A;
+}
+.footer .text-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* padding: 50px 0px 30px 0px; */
+}
+.footer .text-footer h1{
+    color: #2E266F;
+    font-size: 50px;
+}
+.footer .text-footer small{
+    color: #707070;
+}
+.footer .link-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer .link-footer a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #707070;
+}

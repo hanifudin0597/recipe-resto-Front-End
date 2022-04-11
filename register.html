@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+     <!-- font inter -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .container{
+            overflow: none;
+        }
+        .hero .decoration{
+            overflow: none;
+        }
+        .hero .form-input{
+            overflow: scroll;
+        }
+        .form-input .form-group small{
+           /* margin: 5px 0px 10px !important; */
+           padding: 10px 0px 15px 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <div class="decoration">
+                <img src="./assets/images/image.png" alt="gambar landingpage">
+                <img class="icon-recipe" src="./assets/images/iconRecipe.svg" alt="">
+            </div>
+            <div class="form-input">
+                <div class="form-group">
+                    <h1>Let's Get Started !</h1>
+                    <small>Create new account to access all features</small>
+                    <form>
+                            <label>Name</label>
+                            <input type="text" placeholder="Name">
+                            <label>Email Addres</label>
+                            <input type="email" placeholder="Enter email address">
+                            <label>Phone Number</label>
+                            <input type="text" placeholder="08xxxxxxxxxx">
+                            <label>Create New Password</label>
+                            <input type="password" placeholder="Create New Password">
+                            <label>New Password</label>
+                            <input type="password" placeholder="New Password">
+                            <div class="form-check">
+                                <input class="check-box" type="checkbox">
+                                <label class="statement"> I agree to terms & conditions</label>
+                            </div>
+                        <button onclick="location.href='/login.html'" type="button" >Register Account</button>
+                        <div class="dont-have-account">
+                            <label>Already have account?  </label> 
+                            <a href="./login.html">Log in Here </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+

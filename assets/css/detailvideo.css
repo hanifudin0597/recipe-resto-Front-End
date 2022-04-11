@@ -1,0 +1,78 @@
+.container-fluid{
+    width: 100%;
+    height: 100%;
+}
+.ml-0 {
+    margin-left: 0px !important;
+}
+.mr-0{
+    margin-right: 0px !important;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.navbar .primary-menu{
+    width: 80%;
+    z-index: 99999;
+}
+.navbar .primary-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .primary-menu ul li{
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.navbar .primary-menu ul li a{
+    text-decoration: none;
+    color: #2E266F;
+}
+.row{
+    height: auto;
+}
+.row .col-lg-1{
+    background-color: #EFC81A;
+}
+.row .col-lg-11{
+    background-color: white;
+}
+.main-content {
+    padding-top: 40px;
+}
+.main-content .hero .content{
+    width: 100%;
+}
+.main-content .hero .content iframe{
+    margin-left: 100px;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+.main-content .hero .content h4{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50%;
+}
+.main-content .hero .content small{
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 50%;
+}
+.main-content .aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.main-content .aside img{
+    object-fit: cover;
+    width: 80%;
+    height: 130px;
+}
+.main-content .aside h6{
+    width: 80%;
+    font-size: 15px;
+}
+

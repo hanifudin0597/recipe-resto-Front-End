@@ -1,0 +1,190 @@
+@font-face {
+    font-family: airbnb;
+    src: url('/assets/fonts/AirbnbCereal_W_Bd.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.hero .main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+}
+.hero .main-content .title-recipe h1{
+    color: #2E266F;
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: airbnb;
+}
+.hero .main-content img{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+.hero .main-content .title-recipe .icon-like img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 940px;
+    bottom: 70px;
+}
+.hero .main-content .title-recipe .icon-bookmarks img{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 900px;
+    bottom: 70px;
+
+}
+.hero .main-content .ingredients-recipe{
+    display: flex;
+    width: 60%;
+    padding-top: 30px;
+    flex-direction: column;
+}
+.hero .main-content .ingredients-recipe h1{
+    color: #2E266F;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.hero .main-content .ingredients-recipe input{
+    border: none;
+}
+.hero .main-content .ingredients-recipe .ingredient-detail{
+    width: 40%;
+    margin-left: -40px;
+}
+.hero .main-content .ingredients-recipe .ingredient-detail ul li{
+    list-style-type: none;
+}
+.hero .main-content .ingredients-recipe .video input{
+    background-image: url('/assets/images/iconplayvideo.svg');
+    width: 150px;
+    height: 50px;
+    background-color: #EFC81A;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 20px 20px 20px 0px;
+    border-radius: 5px;
+}
+.hero .main-content .comment-recipe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+.hero .main-content .comment-recipe textarea{
+    width: 570px;
+    height: 227px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero .main-content .comment-recipe button{
+    border: none;
+    width: 170px;
+    height: 40px;
+    margin: 30px 0px 30px 0px;
+    background-color: #EFC81A;
+    border-radius: 5px;
+    color: white;
+}
+.hero .main-content .comment-recipe .title-comment{
+    width: 43%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.hero .main-content .comment-recipe .show-comment{
+    display: flex;
+    flex-direction: row;
+    width: 43%;
+    margin-bottom: 100px;
+}
+.hero .main-content .comment-recipe .show-comment img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-top: 9px;
+
+}
+.hero .main-content .comment-recipe .show-comment .author h3{
+    margin-bottom: 0px;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.navbar .primary-menu{
+    width: 80%;
+}
+.navbar .primary-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .primary-menu ul li{
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.navbar .primary-menu ul li a{
+    text-decoration: none;
+    color: #2E266F;
+
+}
+/* .decoration img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 168px;
+    right: 250px;
+    display: flex;
+    flex-direction: column;
+} */
+
+
+/* Footer */
+.footer{
+    height: 50vh;
+    background-color: #EFC81A;
+}
+.footer .text-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* padding: 50px 0px 30px 0px; */
+}
+.footer .text-footer h1{
+    color: #2E266F;
+    font-size: 50px;
+}
+.footer .text-footer small{
+    color: #707070;
+}
+.footer .link-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer .link-footer a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #707070;
+}

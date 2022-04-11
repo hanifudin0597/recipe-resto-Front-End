@@ -1,0 +1,292 @@
+@font-face {
+    font-family: airbnb;
+    src: url('/assets/fonts/AirbnbCereal_W_Bd.otf');
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.content{
+    height: 100vh;
+    background-color: #FFFFFF;
+    width: 70%;
+}
+.decoration{
+    height: 100vh;
+    background-color: #EFC81A;
+    width: 30%;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+.navbar .primary-menu{
+    width: 80%;
+    z-index: 99999;
+}
+.navbar .primary-menu ul{
+    display: flex;
+    list-style: none;
+}
+.navbar .primary-menu ul li{
+    padding: 10px 35px;
+    text-decoration: none;
+}
+.navbar .primary-menu ul li a{
+    text-decoration: none;
+    color: #2E266F;
+}
+.navbar .secondary-menu{
+    width: 20%;
+}
+.navbar .secondary-menu ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar .secondary-menu ul li{
+    padding: 10px 35px;
+}
+.navbar .secondary-menu ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.navbar .secondary-menu ul li .login{
+    display: flex;
+    align-items: center;
+}
+.navbar .secondary-menu ul li .login .icon-login{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.decoration img{
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 168px;
+    right: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.content .jumbotron{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.content .jumbotron h1{
+    font-size: 40px;
+    width: 52%;
+    color: #2E266F;
+}
+.content .jumbotron .form-group{
+   display: flex;
+   height: 50px;
+   background-color: white;
+   width: 400px;
+}
+.content .jumbotron .form-group .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+.content .jumbotron .form-group .input{
+    width: 100%;
+    border: none;
+}
+.content .jumbotron .form-group .input:focus{
+    outline: none;
+
+}
+/* sencond-hero */
+.second-hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.second-hero .border{
+    width: 80%;
+    /* position: absolute; */
+    left: 10px;
+    background-color: red;
+    /* z-index: 9999; */
+}
+.second-hero .text-popular-recipe{
+    position: absolute;
+    left: 120px;
+    border-left: 15px solid #EFC81A;
+}
+.second-hero .text-popular-recipe h1{
+    padding-left: 10px;
+}
+
+.second-hero .show-popular-images{
+    height: 100%;
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-hero .show-popular-images img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+}
+.second-hero .content-popular{
+    height: 100%;
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.second-hero .content-popular .find-more-popular h1{
+    width: 56%;
+    color: #3F3A3A;
+}
+.second-hero .content-popular .find-more-popular small{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+}
+.second-hero .content-popular .find-more-popular button{
+    border: none;
+    background-color: #EFC81A;
+    color: white;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+    
+}
+
+/* third section */
+.third-hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.third-hero .text-new-recipe{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 120px;
+    border-left: 15px solid #EFC81A;
+    margin-bottom: -50px;
+}
+.third-hero .text-new-recipe h1{
+    padding-left: 10px;
+    
+}
+.third-hero .show-new-images{
+    height: 100%;
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-hero .show-new-images img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    margin: 15px 0px 15px 0;
+}
+.third-hero .content-new{
+    height: 100%;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.third-hero .content-new .find-more-new h1{
+    width: 56%;
+    color: #3F3A3A;
+}
+.third-hero .content-new .find-more-new small{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0px 15px 0px;
+}
+.third-hero .content-new .find-more-new button{
+    border: none;
+    background-color: #EFC81A;
+    color: white;
+    width: 100px;
+    height: 38px;
+    border-radius: 5px;
+}
+
+/* fourth-hero */
+.fourth-hero .popular-recipe-list{
+    display: flex;
+    border-left: 15px solid #EFC81A;
+    margin-bottom: 30px;
+    margin-left: 120px;
+}
+.fourth-hero .popular-recipe-list h1{
+    margin-left: 8px;
+}
+.fourth-hero .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-hero .row .column{
+    display: flex;
+    flex-direction: column;
+}
+.fourth-hero .row .column img{
+    width: 350px;
+    height: 350px;
+    /* width: 90%; */
+    border-radius: 15px !important;
+    padding: 15px;
+    object-fit: cover;
+}
+
+/* Footer */
+.footer{
+    height: 50vh;
+    background-color: #EFC81A;
+}
+.footer .text-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    /* padding: 50px 0px 30px 0px; */
+}
+.footer .text-footer h1{
+    color: #2E266F;
+    font-size: 50px;
+}
+.footer .text-footer small{
+    color: #707070;
+}
+.footer .link-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer .link-footer a{
+    padding-right: 15px;
+    text-decoration: none;
+    color: #707070;
+}
